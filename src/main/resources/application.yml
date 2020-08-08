@@ -1,0 +1,13 @@
+spring:
+  profiles:
+    active: pro
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.2.101:3306/shop?useUnicode=true&characterEncoding=UTF8&useSSL=false&serverTimezone=UTC&transformedBitIsBoolean=true&allowMultiQueries=true
+    username: root
+    password: 111111
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    database-platform: org.hibernate.dialect.MySQL5Dialect

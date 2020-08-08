@@ -1,0 +1,5 @@
+server:
+  port: 8088
+girl:
+    age: 18
+    cupsize: F
